@@ -37,7 +37,7 @@ choice.Parent = frame
 -- เมื่อกด BASKETBALL ZERO ให้รันสคริปต์จาก URL แล้วลบ GUI
 choice.MouseButton1Click:Connect(function()
     local success, result = pcall(function()
-        loadstring(game:HttpGet("https://pastefy.app/nQmevNbI/raw"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xantadrun/Basketball-/refs/heads/main/Basketball.lua"))()
     end)
 
     if not success then
